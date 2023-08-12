@@ -1,0 +1,120 @@
+*{
+    font-family: 'Times New Roman';
+}
+header{
+    height: 30%;
+    background-color: #E6E6E6;
+    text-align: center; 
+}
+h1{
+    display: flex;
+    margin-top: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: #C4C4C4;
+    color: #005677;
+    font-feature-settings: 'cpsp' on;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+#DATOS{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+}
+.DATOS{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+.formacion-academica{
+    margin-top: 50px;
+}
+h2{
+    height: 30px;
+    background: #C4C4C4;
+    color: #005677;
+    font-feature-settings: 'cpsp' on;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+img.ME{
+    margin-top: 20.91px;
+    width: 120px;
+    height: 160px;
+}
+footer img{
+    width: 23px;
+    height: 23px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    background: #005677;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    gap: 26px;
+}
+.LUGAR{
+    display: flex;
+} 
+ol{
+    list-style-type: none;
+/*     list-style-position: inherit; */
+    font-size: 15px;
+    padding-left: 20px;
+
+} 
+li{  
+    padding-top: 3px;
+}
+span{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+}
+#LUGAR{
+    margin-top: 0;
+    margin-left: 2px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.experiencia-laboral{
+    margin-bottom: 150px;
+}
+
+.barra_NAVEGACION{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navegación-Principal{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+.navegación-Principal > li{
+    padding: 5%;
+    width: fit-content;
+    white-space: nowrap;
+}
